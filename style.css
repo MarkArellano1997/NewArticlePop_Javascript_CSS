@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(124, 31, 239);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(202, 210, 217);
+}
+
+.container{
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    max-width: 300px;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    padding: 6px 0;
+    width: 100%;
+}
+
+.i{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.btnSign{
+    background-color: rgb(124, 31, 239);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
